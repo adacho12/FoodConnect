@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Connect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/Food Connect.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Página de Inicio -->
+    <header>
+        <h1>Food Connect</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#donaciones">Donaciones</a></li>
+                <li><a href="#ranking">Ranking</a></li>
+                <li><a href="#sucursals">Sucursals</a></li>
+                <li><a href="#footer">Contactar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a Food Connect</h2>
+            <p>Conectamos restaurantes y tiendas para evitar el desperdicio de alimentos en buenas condiciones.</p>
+        <h3>Que Fem?</h3>
+        <p>La nostra aplicació connecta restaurants i botigues per no desaprofitar aliments en perfectes condicions, Food Connect permet que aquestes empreses i particulars donen els seus aliments a aquells que més ho necessiten.</p>
+        <h3>Slogan</h3>
+        <p>Imagina't un món on cada àpat no consumit es converteix en una oportunitat per fer una diferència positiva.</p>
+        </section>
+        <!-- Página de Donaciones -->
+        <section id="donaciones">
+            <h2>Donaciones</h2>
+            <div id="form-section">
+                <h3>Haz una Donación</h3>
+                <form id="wish-form">
+                    <label for="name">Usuario/Empresa:</label>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre de usuario" required>
+                    
+                    <label for="email">Correo de Contacto:</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+
+                    <label for="wish">Donaciones:</label>
+                    <textarea id="wish" name="wish" placeholder="Pon tus donaciones..." required></textarea>
+                    
+                    <button type="submit" id="submit-btn">Haz una Donación</button>
+                </form>
+            </div>
+            <div id="wishes-section">
+                <h3>Donaciones Recibidas</h3>
+                <ul id="wish-list"></ul>
+            </div>
+        </section>
+        <!-- Página de Ranking -->
+        <section id="ranking">
+            <h2>Ranking de Empresas/Restaurantes</h2>
+            <ol id="ranking-list">
+                <li>Restaurante 1</li>
+                <li>Restaurante 2</li>
+                <li>Restaurante 3</li>
+                <li>Restaurante 4</li>
+                <li>Restaurante 5</li>
+                <li>Restaurante 6</li>
+                <li>Restaurante 7</li>
+                <li>Restaurante 8</li>
+                <li>Restaurante 9</li>
+                <li>Restaurante 10</li>
+            </ol>
+        </section>
+        <h3>On estem ubicats?</h3>
+        <section id="sucursals">
+            <div class="map-container">
+                <p class="ciudades">
+                    <iframe class="map_part" width="300" height="300" frameborder="0" scrolling="no" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Avenida de meridiana 238&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">Powered by <a href="https://www.googlemapsgenerator.com">google maps embed</a> and <a href="https://skipboregler.se/">skip bo regler</a>
+                    </iframe>
+                    <br>Barcelona
+                </p>
+                <p class="ciudades">
+                    <iframe class="map_part" width="300" height="300" frameborder="0" scrolling="no" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Calle de Juan Duque, 27&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">Powered by <a href="https://www.googlemapsgenerator.com">google maps embed</a> and <a href="https://skipboregler.se/">skip bo regler</a>
+                    </iframe>
+                    <br>Madrid
+                </p>
+                <p class="ciudades">
+                    <iframe class="map_part" width="300" height="300" frameborder="0" scrolling="no" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Pagés del Corro 34&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">Powered by <a href="https://www.googlemapsgenerator.com">google maps embed</a> and <a href="https://skipboregler.se/">skip bo regler</a>
+                    </iframe>
+                    <br>Sevilla
+                </p>
+                <p class="ciudades">
+                    <iframe class="map_part" width="300" height="300" frameborder="0" scrolling="no" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Calle Torre Nueva, 11&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">Powered by <a href="https://www.googlemapsgenerator.com">google maps embed</a> and <a href="https://skipboregler.se/">skip bo regler</a>
+                    </iframe>
+                    <br>Zaragoza
+                </p>
+            </div>
+        </section>        
+    </main>
+    <section id="footer">
+    <footer>
+        <div class="footer-content">
+            <p>Food Connect &copy; 2024 ¡Ayuda al mundo!</p>
+            <p>Contacto: <a href="tel:+346827382718">+346827382718</a><br> <a href="mailto:1920cholliema@iesjoandaustria.org">1920cholliema@iesjoandaustria.org</a></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

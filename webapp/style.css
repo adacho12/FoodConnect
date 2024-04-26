@@ -1,0 +1,172 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    padding-bottom: 100px;
+}
+
+header {
+    background-color: #ffbf8a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff;
+    display: flex;
+    align-self: flex-start;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+main {
+    padding: 10px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.map-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.map_part {
+    margin: 0 10px;
+    flex: 0 0 auto;
+    max-width: calc(100% - 20px);
+}
+
+@media only screen and (max-width: 768px) {
+    .map-container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .map_part {
+        flex-basis: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+}
+
+.ciudades {
+    text-align: center;
+}
+
+li {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #ffefdb;
+    font-size: 28px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: unset;
+}
+
+.footer-content a {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-content a:hover {
+    color: #00ff55;
+}
+
+@media only screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-left: 0;
+    }
+}
